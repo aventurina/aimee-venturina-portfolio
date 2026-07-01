@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Portfolio of Aimee Venturina, Full Stack Software Engineer specializing in web development, AI, and automation.">
+    <meta name="keywords" content="software engineer, full stack developer, portfolio, AI developer">
+    <meta name="author" content="Aimee Venturina">
+
+    <title>Aimee Venturina</title>
+
+    <link rel="shortcut icon" href="static/img/favicon.ico">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="static/fonts/font-awesome/css/font-awesome.css"> -->
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="70" tabindex="0">
+
+    <!-- ================= NAV ================= -->
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-light sticky-top" id="mainNav">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+                aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-main-collapse justify-content-center" id="navMain">
+
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ================= HEADER ================= -->
+    <header id="header">
+        <div class="intro d-flex align-items-center min-vh-100">
+            <div class="container py-5">
+                <div class="intro-text text-center">
+
+                    <h1>Aimee Venturina</h1>
+                    <hr>
+                    <p>Software Engineer • Full Stack Developer • AI Enthusiast</p>
+
+                    <a href="#about" class="btn btn-outline-primary btn-lg">
+                        Learn More
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+
+            <div class="section-title text-center center">
+                <h2>About Me</h2>
+                <hr>
+            </div>
+
+            <div class="text-center">
+                <img src="static/img/about.jpg" class="img-fluid" alt="Portrait of Aimee Venturina" loading="lazy"
+                    decoding="async">
+            </div>
+
+            <div class="col-md-8 mx-auto">
+                <div class="about-text">
+
+                    <p>
+                        I’m a software engineer focused on building web applications and backend systems.
+                        I enjoy taking complex problems and turning them into simple,
+                        reliable software that is easy to use and maintain.
+                    </p>
+
+                    <p>
+                        Recently, I’ve been expanding my focus into AI and automation,
+                        exploring how they can improve everyday workflows and boost productivity.
+                        I build full-stack applications using Python, JavaScript, and modern AI tools,
+                        with an emphasis on practical systems such as automation tools, dashboards,
+                        and AI-powered productivity applications.
+                    </p>
+
+                    <a href="#portfolio" class="btn btn-outline-primary btn-lg">
+                        My Portfolio
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <section id="portfolio" class="py-5">
+        <div class="container py-5">
+
+            <div class="section-title text-center center">
+                <h2>Portfolio</h2>
+                <hr>
+                <p class="section-subtitle">
+                    A selection of my work across web development, backend systems, and AI-driven tools.
+                </p>
+            </div>
+
+            <!-- FILTERS (still used by your JS) -->
+            <div class="categories text-center">
+                <ul class="list-inline type">
+
+                    <li class="list-inline-item">
+                        <a href="#" data-filter="*" class="active">All</a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="#" data-filter=".web-app">Web Applications</a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="#" data-filter=".backend-api">Backend & APIs</a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="#" data-filter=".ai-automation">AI & Automation</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div id="portfolioGrid"></div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="py-5 text-center">
+        <div class="container py-5">
+
+            <div class="section-title center">
+                <h2>Get In Touch</h2>
+                <hr>
+            </div>
+
+            <div class="col-md-8 mx-auto">
+
+                <form id="contactForm" action="submit_form" method="post">
+
+                    <div class="row">
+                        <div class="col-md-6 mb-2">
+                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                    </div>
+
+                    <textarea name="message" class="form-control mb-2" rows="4" placeholder="Message"></textarea>
+
+                    <button type="submit" class="btn btn-outline-primary btn-lg">
+                        Send Message
+                    </button>
+
+                </form>
+
+                <div id="contactFormMessage" class="mt-3" role="status" aria-live="polite"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="footer">
+        <div class="container text-center">
+            <p class="mb-0">© 2026 Aimee Venturina. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ================= MODAL ================= -->
+    <div class="modal fade" id="projectModal" tabindex="-1">
+
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-body position-relative">
+
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3"
+                        data-bs-dismiss="modal"></button>
+
+                    <img id="modalImage" class="img-fluid" alt="" loading="lazy" decoding="async">
+
+                    <div class="project-overlay">
+                        <h2 id="modalTitle"></h2>
+                        <p id="modalDescription"></p>
+                        <p id="modalTech"></p>
+
+                        <div class="project-links">
+                            <a id="modalLive" class="btn btn-outline-primary btn-sm" target="_blank"
+                                rel="noopener noreferrer">Live Demo</a>
+                            <a id="modalGithub" class="btn btn-outline-primary btn-sm" target="_blank"
+                                rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= JS ================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="static/js/portfolio.js"></script>
+
+</body>
+
+</html>
