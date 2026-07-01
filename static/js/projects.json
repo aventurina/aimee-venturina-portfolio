@@ -4,19 +4,20 @@
     "projects": [
         {
             "id": 1,
-            "title": "Microgreens Shop",
+            "title": "Aimee Venturina Portfolio",
             "category": "web-app",
-            "description": "A responsive React-based e-commerce platform for browsing, purchasing, and ordering fresh microgreens. Features include product catalog browsing, cart management, and a streamlined checkout flow with order confirmation.",
+            "description": "My professional portfolio website featuring software engineering projects, AI applications, automation workflows, creative experiments, and my journey as a builder and lifelong learner.",
             "tech": [
-                "React",
-                "JavaScript",
-                "Bootstrap",
-                "CSS3"
+                "HTML",
+                "CSS",
+                "JavaScript (Vanilla JS)",
+                "Bootstrap 5",
+                "Flask (Python)"
             ],
             "thumbnail": "01-small.jpg",
             "image": "01-large.jpg",
-            "repo": "microgreens-shop",
-            "demo": "",
+            "repo": "aimee-venturina-portfolio",
+            "demo": "https://aimeeventurina.pythonanywhere.com/",
             "featured": true
         },
         {
