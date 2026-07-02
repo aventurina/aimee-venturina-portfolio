@@ -22,21 +22,19 @@
         },
         {
             "id": 2,
-            "title": "Nutrient Calculator",
+            "title": "MeeMee's Microgreens Shop",
             "category": "web-app",
-            "description": "A web-based Nutrient Calculator that lets users search for food items and view their nutritional information using the USDA FoodData Central API. It also fetches meal suggestions based on the food item entered using THEMEALDB API.",
+            "description": "A responsive React-based e-commerce application for selling fresh, locally grown microgreens, featuring product browsing, shopping cart functionality, and a streamlined checkout experience.",
             "tech": [
-                "HTML5",
-                "CSS3",
-                "Bootstrap",
-                "JavaScript",
-                "USDA API",
-                "TheMealDB API"
+                "React",
+                "React Router DOM",
+                "Bootstrap 5 + Reactstrap",
+                "JavaScript (ES6+)"
             ],
             "thumbnail": "02-small.jpg",
             "image": "02-large.jpg",
-            "repo": "nutrient-calculator",
-            "demo": "",
+            "repo": "microgreens-shop",
+            "demo": "https://microgreens-shop-eta.vercel.app/",
             "featured": true
         },
         {

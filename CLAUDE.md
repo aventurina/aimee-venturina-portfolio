@@ -8,7 +8,7 @@ A personal portfolio site (Aimee Venturina) served by a tiny Flask backend, with
 
 ## Commands
 
-Run the dev server (from the repo root, `/Users/aimeeventurina/Desktop/web server`):
+Run the dev server (from the repo root, `/Users/aimeeventurina/github/aimee-venturina-portfolio`):
 
 ```bash
 source .venv/bin/activate
