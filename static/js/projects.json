@@ -36,6 +36,24 @@
             "repo": "microgreens-shop",
             "demo": "https://microgreens-shop-eta.vercel.app/",
             "featured": true
+        },
+        {
+            "id": 3,
+            "title": "News App",
+            "category": "web-app",
+            "description": "A responsive news web application built with HTML, CSS, JavaScript, and Bootstrap that integrates with a third-party News API to fetch and display real-time articles. Features include category filtering, article search, asynchronous data fetching, and a modern, user-friendly interface.",
+            "tech": [
+                "React",
+                "CSS3",
+                "JavaScript",
+                "Bootstrap",
+                "REST APIs"
+            ],
+            "thumbnail": "03-small.jpg",
+            "image": "03-large.jpg",
+            "repo": "news-app",
+            "demo": "news-app-0h3u.onrender.com/",
+            "featured": true
         }
     ]
 }
