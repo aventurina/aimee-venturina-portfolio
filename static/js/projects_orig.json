@@ -1,0 +1,199 @@
+{
+    "githubUser": "aventurina",
+    "imageBase": "static/img/portfolio",
+    "projects": [
+        {
+            "id": 1,
+            "title": "Aimee Venturina Portfolio",
+            "category": "web-app",
+            "description": "My professional portfolio website featuring software engineering projects, AI applications, automation workflows, creative experiments, and my journey as a builder and lifelong learner.",
+            "tech": [
+                "HTML",
+                "CSS",
+                "JavaScript (Vanilla JS)",
+                "Bootstrap 5",
+                "Flask (Python)"
+            ],
+            "thumbnail": "01-small.jpg",
+            "image": "01-large.jpg",
+            "repo": "aimee-venturina-portfolio",
+            "demo": "https://aimeeventurina.pythonanywhere.com/",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "title": "MeeMee's Microgreens Shop",
+            "category": "web-app",
+            "description": "A responsive React-based e-commerce application for selling fresh, locally grown microgreens, featuring product browsing, shopping cart functionality, and a streamlined checkout experience.",
+            "tech": [
+                "React",
+                "React Router DOM",
+                "Bootstrap 5 + Reactstrap",
+                "JavaScript (ES6+)"
+            ],
+            "thumbnail": "02-small.jpg",
+            "image": "02-large.jpg",
+            "repo": "microgreens-shop",
+            "demo": "https://microgreens-shop-eta.vercel.app/",
+            "featured": true
+        },
+        {
+            "id": 3,
+            "title": "News App",
+            "category": "web-app",
+            "description": "A responsive news web application built with HTML, CSS, JavaScript, and Bootstrap that integrates with a third-party News API to fetch and display real-time articles. Features include category filtering, article search, asynchronous data fetching, and a modern, user-friendly interface.",
+            "tech": [
+                "React",
+                "CSS3",
+                "JavaScript",
+                "Bootstrap",
+                "REST APIs"
+            ],
+            "thumbnail": "03-small.jpg",
+            "image": "03-large.jpg",
+            "repo": "news-app",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 4,
+            "title": "Matching Game",
+            "category": "web-app",
+            "description": "A browser-based visual matching game built with HTML, CSS, and JavaScript where players identify the smiley face that does not have a matching pair on the opposing panel. The game progressively increases in difficulty and demonstrates DOM manipulation, event handling, dynamic content generation, game logic implementation, and responsive web design principles.",
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "JavaScript (Vanilla JS)"
+            ],
+            "thumbnail": "04-small.jpg",
+            "image": "04-large.jpg",
+            "repo": "matching-game",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 5,
+            "title": "Random Color Generator",
+            "category": "web-app",
+            "description": "A simple web-based Color Inspiration Tool that generates random hex color codes and applies them to a preview container. Users can click a button to generate new colors, view the corresponding hex value in real time, and reset the background to white. The project demonstrates DOM manipulation, event handling, and basic JavaScript logic for random color generation.",
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "JavaScript (Vanilla JS)"
+            ],
+            "thumbnail": "05-small.jpg",
+            "image": "05-large.jpg",
+            "repo": "random-color-generator",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 6,
+            "title": "Shopping List",
+            "category": "web-app",
+            "description": "A simple shopping list web application that allows users to add, remove, and manage grocery items dynamically using JavaScript. The list automatically sorts items alphabetically and updates in real time through DOM manipulation. Users can also click items to remove them and print the final list for offline use. The project demonstrates form handling, event-driven programming, and dynamic UI updates.",
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "JavaScript (Vanilla JS)"
+            ],
+            "thumbnail": "06-small.jpg",
+            "image": "06-large.jpg",
+            "repo": "shopping-list",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 7,
+            "title": "Number Guessing Game",
+            "category": "web-app",
+            "description": "A simple number guessing game built with JavaScript where the player attempts to guess a randomly generated number between 1 and 100. The game provides real-time feedback on whether guesses are too high, too low, or invalid, and tracks the number of attempts until the correct answer is found. This project demonstrates control flow, input validation, functions, and basic game logic using JavaScript.",
+            "tech": [
+                "HTML5",
+                "JavaScript"
+            ],
+            "thumbnail": "07-small.jpg",
+            "image": "07-large.jpg",
+            "repo": "number-guessing-game",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 8,
+            "title": "Dice Game",
+            "category": "web-app",
+            "description": "A simple browser-based dice rolling game built with JavaScript where players roll a virtual die up to 10 times to earn gold coins. Each roll generates a random number between 1 and 6, with different outcomes based on the result. Rolling a 1 ends the game early, while higher rolls award coins. The project demonstrates loops, conditionals, random number generation, and control flow using break and continue statements.",
+            "tech": [
+                "HTML5",
+                "JavaScript"
+            ],
+            "thumbnail": "08-small.jpg",
+            "image": "08-large.jpg",
+            "repo": "dicegame",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 9,
+            "title": "Theatre Tickets",
+            "category": "web-app",
+            "description": "A responsive ticket pricing web application for a fictional theater that calculates ticket costs based on user input. Users enter their age and indicate whether they are attending a matinee show, and the app dynamically applies pricing rules including age-based discounts and matinee reductions. The project demonstrates conditional logic, user input handling, function decomposition, and integration with a responsive Bootstrap UI.",
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "Bootstrap",
+                "JavaScript"
+            ],
+            "thumbnail": "09-small.jpg",
+            "image": "09-large.jpg",
+            "repo": "theatre",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 10,
+            "title": "Authentication & Account Management API",
+            "category": "backend-api",
+            "description": "JWT-based auth, role-based access (admin/customer), account creation, password reset flows, rate limiting. Less domain-specific, but it's the kind of foundational service every banking platform needs, and it's easy to show clean architecture.",
+            "tech": [
+                "JWT"
+            ],
+            "thumbnail": "10-small.jpg",
+            "image": "10-large.jpg",
+            "repo": "",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 11,
+            "title": "Transaction Categorization & Ledger API",
+            "category": "backend-api",
+            "description": "Ingests raw transactions (CSV or via a mock bank-feed endpoint), auto-categorizes them (groceries, rent, etc.), and exposes endpoints for balance history, spending by category, and monthly summaries.",
+            "tech": [
+                "Express",
+                "FastAPI",
+                "Postgres"
+            ],
+            "thumbnail": "11-small.jpg",
+            "image": "11-large.jpg",
+            "repo": "",
+            "demo": "",
+            "featured": true
+        },
+        {
+            "id": 12,
+            "title": "Document/Statement Generator API",
+            "category": "backend-api",
+            "description": "A lightweight backend API that generates structured documents or statements based on user input. The API processes request data, applies predefined templates, and returns formatted text responses dynamically. This project demonstrates backend API design, request/response handling, and modular function-based architecture for generating consistent outputs.",
+            "tech": [
+                "JavaScript",
+                "Express.js"
+            ],
+            "thumbnail": "12-small.jpg",
+            "image": "12-large.jpg",
+            "repo": "",
+            "demo": "",
+            "featured": true
+        }
+    ]
+}
