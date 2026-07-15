@@ -52,7 +52,7 @@
             "thumbnail": "03-small.jpg",
             "image": "03-large.jpg",
             "repo": "news-app",
-            "demo": "news-app-0h3u.onrender.com/",
+            "demo": "https://news-app-0h3u.onrender.com/",
             "featured": true
         }
     ]
