@@ -2,6 +2,10 @@
 
 A personal portfolio website built with a lightweight Flask backend, static HTML/CSS/JS, and Bootstrap 5 — no build step, no bundler, no frontend framework.
 
+![Portfolio site screenshot](docs/screenshot-aimeeventurina-portfolio.png)
+
+**Live site:** [aimeeventurina.pythonanywhere.com](https://aimeeventurina.pythonanywhere.com/)
+
 ## Features
 
 - Single-page layout with scrollspy navigation (About, Portfolio, Contact)
