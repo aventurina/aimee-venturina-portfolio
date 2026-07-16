@@ -54,6 +54,26 @@
             "repo": "news-app",
             "demo": "https://news-app-0h3u.onrender.com/",
             "featured": true
+        },
+        {
+            "id": 4,
+            "title": "Marginalia",
+            "category": "ai-automation",
+            "description": "A RAG-based reading companion that answers questions grounded in your own uploaded documents, with cited sources.",
+            "tech": [
+                "JavaScript",
+                "Node.js",
+                "Express",
+                "Claude API (Anthropic)",
+                "Transformers.js (Hugging Face)",
+                "RAG / Vector Search",
+                "Parcel"
+            ],
+            "thumbnail": "04-small.jpg",
+            "image": "04-large.jpg",
+            "repo": "doc-chat",
+            "demo": "https://doc-chat-fdzl.onrender.com/",
+            "featured": true
         }
     ]
 }
