@@ -43,11 +43,10 @@
             "category": "web-app",
             "description": "A responsive news web application built with HTML, CSS, JavaScript, and Bootstrap that integrates with a third-party News API to fetch and display real-time articles. Features include category filtering, article search, asynchronous data fetching, and a modern, user-friendly interface.",
             "tech": [
-                "React",
-                "CSS3",
                 "JavaScript",
-                "Bootstrap",
-                "REST APIs"
+                "Node.js",
+                "Express",
+                "Parcel"
             ],
             "thumbnail": "03-small.jpg",
             "image": "03-large.jpg",
