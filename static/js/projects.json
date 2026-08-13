@@ -73,6 +73,22 @@
             "repo": "doc-chat",
             "demo": "https://doc-chat-fdzl.onrender.com/",
             "featured": true
+        },
+        {
+            "id": 5,
+            "title": "Typing Speed Test",
+            "category": "web-app",
+            "description": "A browser-based typing speed test built with vanilla JavaScript, HTML, and CSS. Tracks real-time WPM, highlights correct and incorrect keystrokes as you type, and includes mobile-device detection.",
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "JavaScript (Vanilla JS)"
+            ],
+            "thumbnail": "05-small.jpg",
+            "image": "05-large.jpg",
+            "repo": "typing-speed-test",
+            "demo": "https://aventurina.github.io/typing-speed-test/",
+            "featured": true
         }
     ]
 }
