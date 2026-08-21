@@ -89,6 +89,23 @@
             "repo": "typing-speed-test",
             "demo": "https://aventurina.github.io/typing-speed-test/",
             "featured": true
+        },
+        {
+            "id": 6,
+            "title": "AI with Aimee ",
+            "category": "web-app",
+            "description": "A high-performance blog documenting my AI learning journey and tech insights. Built with Astro for speed and simplicity, deployed on Vercel.",
+            "tech": [
+                "Astro",
+                "HTML",
+                "CSS",
+                "Markdown"
+            ],
+            "thumbnail": "06-small.jpg",
+            "image": "06-large.jpg",
+            "repo": "ai-with-aimee",
+            "demo": "https://ai-with-aimee.vercel.app/",
+            "featured": true
         }
     ]
 }
