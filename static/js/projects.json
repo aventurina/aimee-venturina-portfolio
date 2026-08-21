@@ -92,7 +92,7 @@
         },
         {
             "id": 6,
-            "title": "AI with Aimee ",
+            "title": "AI with Aimee Blog",
             "category": "web-app",
             "description": "A high-performance blog documenting my AI learning journey and tech insights. Built with Astro for speed and simplicity, deployed on Vercel.",
             "tech": [
